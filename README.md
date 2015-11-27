@@ -1,9 +1,13 @@
-## DEPENDENCIES
+## SET SOLVER
+
+The game of set — finding groups of cards that either match or vary in different aspects — is an interesting exercise in combinatorics and, when solving programatically, problem representation. See below!
+
+### DEPENDENCIES
 * Solution components require only Python core
 * Test suite uses pytest
 * See requirements.txt for complete package and version info
 
-## USAGE
+### USAGE
 * Install dependencies via `pip install -r requirements.txt`
 * The `set_solver` module provides both deck generation and game solving
 * A deck is a collection of cards to be searched for Sets
@@ -22,7 +26,7 @@
 *	the game setting parameters (`dimension` and `feature_size`)
 
 
-## TESTS
+### TESTS
 * Correctness follows from local correctness of `is_set` method
 * 	and the checking of every possible combination of cards in deck
 * Testing suite can be ran by simply invoking `py.test` in this directory
